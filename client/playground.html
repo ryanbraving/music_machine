@@ -1,0 +1,70 @@
+<template name="playground">
+
+<br><br><br>
+<!-- Remember - if you want to control functions globaly, don't declare them as var. Just name them. -->
+
+<span class="toggleMachine">
+	<input type="checkbox" id="toggleMachine" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Machine ON" data-off="<i class='fa fa-pause'></i> Machine OFF" data-onstyle="success" data-offstyle="danger">
+</span> <h1> &nbsp;&nbsp;{{startmachine}} </h1>
+
+<br><br>
+<!-- <h1> &nbsp;&nbsp;Track 2 </h1> -->
+<span class="toggleAll">
+	<input type="checkbox" id="toggleAll" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play All" data-off="<i class='fa fa-pause'></i> Pause All" data-width="120" data-height="75">
+</span> 
+
+
+<br><br>
+<h1> &nbsp;&nbsp;Track 1 </h1>
+<span class="toggle1">
+	<input type="checkbox" id="toggle1" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{drums}} </h1>
+
+<br>
+<h1> &nbsp;&nbsp;Track 2 </h1>
+<span class="toggle2">
+	<input type="checkbox" id="toggle2" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{bass}} </h1>
+
+<br>
+<h1> &nbsp;&nbsp;Track 3 </h1>
+<span class="toggle3">
+	<input type="checkbox" id="toggle3" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{arp}} </h1>
+
+<br>
+<h1> &nbsp;&nbsp;Track 4 </h1>
+<span class="toggle4">
+	<input type="checkbox" id="toggle4" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{cymbal1}} </h1>
+
+<br>
+<h1> &nbsp;&nbsp;Track 5 </h1>
+<span class="toggle5">
+	<input type="checkbox" id="toggle5" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{hihat2}} </h1>
+
+<br>
+<h1> &nbsp;&nbsp;Track 6 </h1>
+<span class="toggle6">
+	<input type="checkbox" id="toggle6" class="toggle-alltracks" data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> <h1> &nbsp;&nbsp;{{snaredrum1}} </h1>
+
+<br><br>
+<h1> {{buttons}} </h1>
+
+<!-- <br><br>
+<h1> {{button2}} </h1> -->
+
+<!-- <span class="toggle6">
+<input type="checkbox" checked data-toggle="toggle" data-on="<i class='fa fa-play'></i> Play" data-off="<i class='fa fa-pause'></i> Pause">
+</span> -->
+
+ <br> 
+
+<br>
+  <div id="slider1"></div>
+  <br>
+  Current Speed = {{sliderVal1}}
+
+</template>
